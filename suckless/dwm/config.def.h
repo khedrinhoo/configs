@@ -73,7 +73,7 @@ static const char *termcmd[]  = { "kitty", NULL };
 static const Key keys[] = {
 	/* modifier                     key        function        argument */
 
-	{ MODKEY,             		    XK_Return, spawn,          {.v = termcmd } },
+	{ MODKEY,             		XK_Return, spawn,          {.v = termcmd } },
 	{ MODKEY,                       XK_space,  spawn,          {.v = dmenucmd } },
 
 	{ MODKEY,                       XK_h,      focusdir,       {.i = 0 } },
@@ -88,13 +88,12 @@ static const Key keys[] = {
 	{ MODKEY|ShiftMask,             XK_k,      pushup,         {0} },
 
 	{ MODKEY,                       XK_Escape, zoom,           {0} },
-
 	{ MODKEY,                       XK_Tab,    view,           {0} },
 
 	{ MODKEY|ShiftMask,             XK_q,      killclient,     {0} },
 
 	{ MODKEY,                       XK_t,      setlayout,      {.v = &layouts[0]} },
-	{ MODKEY,             		    XK_o,      togglefloating, {0} },
+	{ MODKEY,             		XK_o,      togglefloating, {0} },
 	{ MODKEY,                       XK_f,      togglefullscr,  {0} },
 
 	{ MODKEY,                       XK_minus,  setgaps,        {.i = -1 } },
