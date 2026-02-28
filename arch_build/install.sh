@@ -15,26 +15,20 @@ sudo pacman -S --noconfirm --needed noto-fonts noto-fonts-emoji ttf-jetbrains-mo
 # Suckless
 sudo pacman -S --noconfirm --needed xorg-server xorg-xsetroot xorg-xinit libxinerama libx11 libxft
 
-# Dev
-sudo pacman -S --noconfirm --needed base-devel git wget curl openssh stow doas
-
-# Web
-sudo pacman -S --noconfirm --needed firefox chromium
-
-# Terminal
-sudo pacman -S --noconfirm --needed kitty tmux nvim nnn btop fzf unzip 
-
-# Text Editor
-sudo pacman -S --noconfirm --needed vulkan-radeon zed 
-
 # Media
 sudo pacman -S --noconfirm --needed sxiv zathura mpv mpd scrot 
 
 # Notes
 sudo pacman -S --noconfirm --needed obsidian
 
-# VM
-sudo pacman -S --noconfirm --needed gnome-boxes 
+# Web
+sudo pacman -S --noconfirm --needed firefox chromium
+
+# Dev
+sudo pacman -S --noconfirm --needed base-devel git wget curl openssh stow doas
+
+# Terminal
+sudo pacman -S --noconfirm --needed tmux nvim nnn btop fzf unzip 
 
 # Systemd
 sudo systemctl enable --now bluetooth
