@@ -80,7 +80,7 @@ static const Key keys[] = {
 	{ MODKEY,                       XK_l,      focusdir,       {.i = 1 } },
 	{ MODKEY,                       XK_k,      focusdir,       {.i = 2 } },
 	{ MODKEY,                       XK_j,      focusdir,       {.i = 3 } },
-													
+
 	{ MODKEY|ShiftMask,             XK_h,      setmfact,       {.f = -0.05} },
 	{ MODKEY|ShiftMask,             XK_l,      setmfact,       {.f = +0.05} },
 
@@ -88,7 +88,6 @@ static const Key keys[] = {
 	{ MODKEY|ShiftMask,             XK_k,      pushup,         {0} },
 
 	{ MODKEY,                       XK_Escape, zoom,           {0} },
-
 	{ MODKEY,                       XK_Tab,    view,           {0} },
 
 	{ MODKEY|ShiftMask,             XK_q,      killclient,     {0} },
@@ -101,7 +100,7 @@ static const Key keys[] = {
 	{ MODKEY,                       XK_equal,  setgaps,        {.i = +1 } },
 	{ MODKEY|ShiftMask,             XK_equal,  setgaps,        {.i = 0  } },
 
-  	/*	
+  	/*
 	{ MODKEY,                       XK_comma,  focusmon,       {.i = -1 } },
 	{ MODKEY,                       XK_period, focusmon,       {.i = +1 } },
 
@@ -154,4 +153,3 @@ static const Button buttons[] = {
 	{ ClkTagBar,            MODKEY,         Button1,        tag,            {0} },
 	{ ClkTagBar,            MODKEY,         Button3,        toggletag,      {0} },
 };
-
