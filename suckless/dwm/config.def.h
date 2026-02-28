@@ -13,8 +13,8 @@ static const int topbar             = 0;        /* 0 means bottom bar */
 static const int splitstatus        = 1;        /* 1 for split status items */
 static const char *splitdelim       = ";";       /* Character used for separating status */
 
-static const char *fonts[]          = { "JetBrainsMono Nerd Font:size=12" };
-static const char dmenufont[]       = "JetBrainsMono Nerd Font:size=12";
+static const char *fonts[]          = { "JetBrainsMono Nerd Font Bold:size=12" };
+static const char dmenufont[]       = "JetBrainsMono Nerd Font Bold:size=12";
 
 static const char col_gray1[]       = "#222222";
 static const char col_gray2[]       = "#444444";
